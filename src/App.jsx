@@ -22,6 +22,7 @@ function App() {
         <div className='h-[300px] m-9 w-1 overflow-hidden real fixed top-[30%] right-0 z-50 rounded-full '>
           <motion.div style={{scaleY:scrollYProgress}} className=' h-[300px] rounded-full  m-8 w-[2px] fixed top-[30.5%] right-[4px] bg-zinc-400 z-50 origin-top'></motion.div>
         </div>
+        <WorkPage />
         <Routes>
           <Route path='/WorkPage' element={<WorkPage/>}/>
           <Route path='/InfoPage' element={<InfoPage/>}/>
